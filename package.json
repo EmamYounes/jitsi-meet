@@ -2,6 +2,9 @@
   "name": "jitsi-meet",
   "version": "0.0.0",
   "description": "A sample app for the Jitsi Videobridge",
+      "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  }
   "repository": {
     "type": "git",
     "url": "git://github.com/jitsi/jitsi-meet"
