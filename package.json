@@ -12,7 +12,7 @@
     "xmpp",
     "browser"
   ],
-  "author": "",
+  "author": "Emam",
   "readmeFilename": "README.md",
   "dependencies": {
     "@atlaskit/avatar": "14.1.7",
