@@ -93,21 +93,6 @@ class OverflowMenu extends Component<Props> {
             <BottomSheet onCancel = { this._onCancel }>
                 <AudioRouteButton { ...buttonProps } />
                 <ToggleCameraButton { ...buttonProps } />
-                <AudioOnlyButton { ...buttonProps } />
-                <RoomLockButton { ...buttonProps } />
-                <ClosedCaptionButton { ...buttonProps } />
-                {
-                    this.props._recordingEnabled
-                        && <RecordButton { ...buttonProps } />
-                }
-                <LiveStreamButton { ...buttonProps } />
-                <TileViewButton { ...buttonProps } />
-                <InviteButton { ...buttonProps } />
-                {
-                    this.props._chatEnabled
-                        && <InfoDialogButton { ...buttonProps } />
-                }
-                <RaiseHandButton { ...buttonProps } />
             </BottomSheet>
         );
     }
@@ -151,3 +136,4 @@ function _mapStateToProps(state) {
 OverflowMenu_ = connect(_mapStateToProps)(OverflowMenu);
 
 export default OverflowMenu_;
+
